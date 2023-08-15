@@ -6,11 +6,14 @@
 
 const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson"]
 
-function printStudentNames(){
+function printStudentNames(studentList){
     // Add code here
+    studentList.forEach((element)=>{
+        console.log(element)
+    })
 }
 
-printStudentNames();
+printStudentNames(studentList);
 
 // Ignore the code below this line
 module.exports = {
